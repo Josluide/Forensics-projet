@@ -22,7 +22,7 @@ Outils utilisés :
 - **Volatility 3** (profil ISF `debian-6.1.0-54-amd64`) analyse mémoire
 - `file`, `readelf`, `strings`, `objdump` analyse statique du binaire
 - `dpkg -V`, analyse de `audit.log`, PAM, wtmp/lastlog contrôles complémentaires
-- **YARA** — règle de détection de l'implant
+- **YARA** règle de détection de l'implant
 
 ## Contenu du dépôt
 
