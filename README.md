@@ -1,4 +1,4 @@
-# Réponse à incident & forensics — Projet D
+# Réponse à incident & forensics  Projet D
 
 Rapport d'investigation forensique d'un endpoint Debian compromis, réalisé dans le cadre d'un TP pédagogique (analyse hors ligne, en lecture seule, sur image disque et dump mémoire fournis).
 
@@ -18,10 +18,10 @@ L'analyse de l'hôte **`cnd-endpoint01`** (Debian, noyau 6.1.0-54-amd64) confirm
 Analyse **hors ligne**, **en lecture seule** (montage `ro,noload`, lectures directes via The Sleuth Kit), sans exécuter l'implant ni contacter les IOC. Chaîne de possession vérifiée par `sha256sum -c`.
 
 Outils utilisés :
-- **The Sleuth Kit** (`mmls`, `fsstat`, `fls`, `icat`, `istat`, `mactime`) — analyse disque et timeline
-- **Volatility 3** (profil ISF `debian-6.1.0-54-amd64`) — analyse mémoire
-- `file`, `readelf`, `strings`, `objdump` — analyse statique du binaire
-- `dpkg -V`, analyse de `audit.log`, PAM, wtmp/lastlog — contrôles complémentaires
+- **The Sleuth Kit** (`mmls`, `fsstat`, `fls`, `icat`, `istat`, `mactime`) analyse disque et timeline
+- **Volatility 3** (profil ISF `debian-6.1.0-54-amd64`) analyse mémoire
+- `file`, `readelf`, `strings`, `objdump` analyse statique du binaire
+- `dpkg -V`, analyse de `audit.log`, PAM, wtmp/lastlog contrôles complémentaires
 - **YARA** — règle de détection de l'implant
 
 ## Contenu du dépôt
