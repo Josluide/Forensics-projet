@@ -1,0 +1,11 @@
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+*~
+.~lock.*
+
+# Artefacts de preuve (volumineux, ne pas committer)
+*.raw
+*.dd
+*.mem
+*.img
