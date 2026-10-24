@@ -2,7 +2,7 @@
 
 Rapport d'investigation forensique d'un endpoint Debian compromis, réalisé dans le cadre d'un TP pédagogique (analyse hors ligne, en lecture seule, sur image disque et dump mémoire fournis).
 
-> ⚠️ Contexte strictement pédagogique. Les IOC présents (ex. `203.0.113.50`, bloc **TEST-NET-3** réservé à la documentation — RFC 5737) ne doivent **jamais** être contactés. L'implant n'a jamais été exécuté pendant l'analyse.
+Contexte strictement pédagogique. Les IOC présents (ex. `203.0.113.50`, bloc **TEST-NET-3** réservé à la documentation RFC 5737) ne doivent **jamais** être contactés. L'implant n'a jamais été exécuté pendant l'analyse.
 
 ## Résumé de l'incident
 
@@ -41,4 +41,4 @@ Isolation de l'hôte, éradication de l'unité et du binaire cachés, durcisseme
 
 ---
 
-*Projet pédagogique de réponse à incident — Groupe D.*
+*Projet pédagogique de réponse à incident Groupe D.*
